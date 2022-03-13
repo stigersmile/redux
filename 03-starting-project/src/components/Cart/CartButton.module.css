@@ -19,3 +19,14 @@
   padding: 0.15rem 1.25rem;
   color: #1d1d1d;
 }
+
+.cartlable {
+  display: inline;
+}
+
+/* < 500px */
+@media screen and (max-width: 600px) {
+  .cartlable {
+    display: none;
+  }
+}
